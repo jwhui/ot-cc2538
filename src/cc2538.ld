@@ -92,7 +92,7 @@ SECTIONS
         KEEP(*(.init))
         KEEP(*(.fini))
         _etext = .;
-    } > FLASH= 0
+    } > FLASH = 0
 
     .init_array :
     {
